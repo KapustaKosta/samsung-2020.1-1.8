@@ -1,6 +1,7 @@
-package ru.nikita.samsung.hw17;
+package ru.konstantin.samsung.hw17;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
@@ -8,6 +9,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(new MyView(this, 10));
+        setContentView(new MyView(this));
     }
 }

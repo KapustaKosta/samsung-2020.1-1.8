@@ -1,4 +1,4 @@
-package ru.nikita.samsung.hw17;
+package ru.konstantin.samsung.hw17;
 
 import org.junit.Test;
 
